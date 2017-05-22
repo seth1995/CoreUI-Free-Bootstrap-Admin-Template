@@ -1,3 +1,4 @@
+
 <template>
   <div class="animated fadeIn">
     <div class="row">
@@ -89,8 +90,8 @@
 
             </div><!--/.row-->
           </div>
-          <div class="card-footer">
-            <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+          <div class="card-footer" >
+            <button type="submit" class="btn btn-sm btn-primary"  v-on:click="load"><i class="fa fa-dot-circle-o"></i> Submit</button>
             <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
           </div>
         </div>

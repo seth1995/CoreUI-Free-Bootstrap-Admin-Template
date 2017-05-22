@@ -9,5 +9,11 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: { App },
+  methods: {
+    load: function (event) {
+      alert('Hello !')
+      alert(event.target.tagName)
+    }
+  }
 })

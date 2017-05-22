@@ -14,11 +14,12 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "vue": "2.2.6",
     "chart.js": "2.5.0",
+    "vue": "2.2.6",
     "vue-chartjs": "2.6.1",
     "vue-router": "2.4.0",
-    "vue-strap": "github:wffranco/vue-strap"
+    "vue-strap": "github:wffranco/vue-strap",
+    "vue2-loading-bar": "0.0.1"
   },
   "devDependencies": {
     "autoprefixer": "6.7.7",

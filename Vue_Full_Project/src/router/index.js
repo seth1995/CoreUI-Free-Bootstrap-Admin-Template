@@ -43,7 +43,7 @@ export default new Router({
       children: [
         {
           path: 'dashboard',
-          name: 'Dashboard',
+          name: 'Online Hospital',
           component: Dashboard
         },
         {

@@ -1,102 +1,122 @@
 <template>
   <div class="animated fadeIn">
     <div class="row">
-      <div class="col-sm-6 col-lg-3">
-        <div class="card card-inverse card-primary">
-          <div class="card-block pb-0">
-            <dropdown class="float-right" type="transparent p-0">
-              <i slot="button" class="icon-settings"></i>
-              <div slot="dropdown-menu" class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </dropdown>
-            <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
-          </div>
-          <card-line1-chart-example class="chart-wrapper px-3" style="height:70px;" height="70"/>
-        </div>
-      </div><!--/.col-->
 
-      <div class="col-sm-6 col-lg-3">
-        <div class="card card-inverse card-info">
-          <div class="card-block pb-0">
-            <dropdown class="float-right" type="transparent p-0">
-              <i slot="button" class="icon-settings"></i>
-              <div slot="dropdown-menu" class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </dropdown>
-            <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
-          </div>
-          <card-line2-chart-example class="chart-wrapper px-3" style="height:70px;" height="70"/>
-        </div>
-      </div><!--/.col-->
 
-      <div class="col-sm-6 col-lg-3">
-        <div class="card card-inverse card-warning">
-          <div class="card-block pb-0">
-            <div class="btn-group float-right">
-              <dropdown class="float-right" type="transparent p-0">
-                <i slot="button" class="icon-settings"></i>
-                <div slot="dropdown-menu" class="dropdown-menu dropdown-menu-right">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+
+      <div class="col-sm-12 col-lg-12">
+        <div class="card">
+          <div class="card-header">
+            <strong>Information Form</strong> <small>of cervical carcinoma</small>
+          </div>
+          <div class="card-block">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
                 </div>
-              </dropdown>
-            </div>
-            <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
-          </div>
-          <card-line3-chart-example class="chart-wrapper" style="height:70px;" height="70"/>
-        </div>
-      </div><!--/.col-->
-
-      <div class="col-sm-6 col-lg-3">
-        <div class="card card-inverse card-danger">
-          <div class="card-block pb-0">
-            <div class="btn-group float-right">
-              <dropdown class="float-right" type="transparent p-0">
-                <i slot="button" class="icon-settings"></i>
-                <div slot="dropdown-menu" class="dropdown-menu dropdown-menu-right">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div><!--/.row-->
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="form-group row">
+                  <label class="col-md-3 form-control-label" for="file-input">Target Image</label>
+                  <div class="col-md-9">
+                    <input type="file" id="file-input" name="file-input">
+                  </div>
                 </div>
-              </dropdown>
+              </div>
+            </div><!--/.row-->
+            <div class="row">
+              <div class="col-sm-4">
+              <h5><b>Birthday</b></h5>
             </div>
-            <h4 class="mb-0">9.823</h4>
-            <p>Members online</p>
+            </div>
+            <div class="row">
+              <div class="form-group col-sm-4">
+                <label for="ccmonth">Day</label>
+                <select class="form-control" id="ccday">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-4">
+                <label for="ccmonth">Month</label>
+                <select class="form-control" id="ccmonth">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-4">
+                <label for="ccyear">Year</label>
+                <select class="form-control" id="ccyear">
+                  <option>1984</option>
+                  <option>2014</option>
+                  <option>2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                  <option>2020</option>
+                  <option>2021</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                </select>
+              </div>
+
+            </div><!--/.row-->
           </div>
-          <card-bar-chart-example class="chart-wrapper px-3" style="height:70px;" height="70"/>
+          <div class="card-footer">
+            <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+            <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+          </div>
         </div>
       </div><!--/.col-->
     </div><!--/.row-->
+
 
     <div class="card">
       <div class="card-block">
         <div class="row">
           <div class="col-sm-5">
-            <h4 class="card-title mb-0">Traffic</h4>
-            <div class="small text-muted">November 2016</div>
+            <h4 class="card-title mb-0">Result</h4>
+            <div class="small text-muted">May 2017</div>
           </div><!--/.col-->
           <div class="col-sm-7 hidden-sm-down">
             <button type="button" class="btn btn-primary float-right"><i class="icon-cloud-download"></i></button>
             <div class="btn-toolbar float-right" role="toolbar" aria-label="Toolbar with button groups">
               <div class="btn-group mr-3" data-toggle="buttons" aria-label="First group">
                 <label class="btn btn-outline-secondary">
-                  <input type="radio" name="options" id="option1"> Day
+                  <input type="radio" name="options" id="option1"> Line
                 </label>
                 <label class="btn btn-outline-secondary active">
-                  <input type="radio" name="options" id="option2" checked> Month
+                  <input type="radio" name="options" id="option2" checked> Pie
                 </label>
                 <label class="btn btn-outline-secondary">
-                  <input type="radio" name="options" id="option3"> Year
+                  <input type="radio" name="options" id="option3"> Form
                 </label>
               </div>
             </div>

@@ -7,10 +7,10 @@
         <a class="nav-link navbar-toggler sidebar-toggler" href="#" @click="sidebarMinimize">&#9776;</a>
       </li>
       <li class="nav-item px-3">
-        <a class="nav-link" href="#">Dashboard</a>
+        <a class="nav-link" href="#">Online Hospital</a>
       </li>
       <li class="nav-item px-3">
-        <a class="nav-link" href="#">Users</a>
+        <a class="nav-link" href="#">History</a>
       </li>
       <li class="nav-item px-3">
         <a class="nav-link" href="#">Settings</a>
@@ -29,7 +29,7 @@
       <dropdown size="nav" class="nav-item">
         <span slot="button">
           <img src="static/img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-          <span class="d-md-down-none">admin</span>
+          <span class="d-md-down-none">Mary</span>
         </span>
         <div slot="dropdown-menu"class="dropdown-menu dropdown-menu-right">
 
